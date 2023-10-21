@@ -1,0 +1,44 @@
+echo "# RockHeart" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Rockheart1/RockHeart.git
+git push -u origin main
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha Diallo - Web Developer</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Alpha Diallo</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="intro">
+            <h2>Who am I?</h2>
+            <p>I'm a web developer with a passion for creating amazing websites and applications. I love working with others to turn dreams into reality.</p>
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Outside of web development, I enjoy exploring Staten Island, New York, Professional Wrestling, and Anime . Feel free to connect with me through the links below!</p>
+        </section>
+    </main>
+    <footer>
+        <nav>
+            <p>Contact:</p>
+            <p>Email: <a href="mailto:adiallo224@gmail.com">adiallo224@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/Rockheart1">Rockheart1</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin">LinkedIn Profile</a></p>
+        </nav>
+    </footer>
+</body>
+</html>
